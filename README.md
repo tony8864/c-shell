@@ -16,22 +16,19 @@ The shell supports process creation, pipelines, environment variables, and input
   ```bash
   ls; date; mkdir test
 
-- **Arguments** 
+- **Arguments**  
+    Handles commands with arguments (e.g., `ls -al`).
 
-Handles commands with arguments (e.g., `ls -al`).
-
-- **Environment variables** 
-
-Allows definition and usage of shell variables
+- **Environment variables**  
+    Allows definition and usage of shell variables
 
 ```bash
 x=world
 echo hello $x   # prints "hello world"
 ```
 
-- **Pipes** 
-
-Redirects the output of one command as the input to another.  
+- **Pipes**  
+    Redirects the output of one command as the input to another.  
 Example:
 
 ```bash
